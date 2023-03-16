@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+.card{
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+#tarjetas{
+    border-radius: 0%;
+}

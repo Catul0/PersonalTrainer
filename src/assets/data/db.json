@@ -1,0 +1,95 @@
+{
+  "portada": [
+    {
+      "id": 12,
+      "background": "./assets/imagenes/2nuevo.png"
+    },
+    {
+      "id": 2,
+      "background": "./assets/imagenes/3nuevo.png"
+    },
+    {
+      "id": 3,
+      "background": "./assets/imagenes/1nuevo.png"
+    }
+  ],
+  "tarjetas": [
+    {
+      "id": 1,
+      "photo": "./assets/imagenes/marcos.PNG",
+      "titulo": "Sobre Mi",
+      "link":"/aboutMe"
+    },
+    {
+      "id": 2,
+      "photo": "./assets/imagenes/ejercicio.png",
+      "titulo": "Guias de ejercicios",
+      "link":"/guias"
+    },
+    {
+      "id": 3,
+      "photo": "./assets/imagenes/ayudando.png",
+      "titulo": "Planes de Entrenamiento",
+      "link":"/planes"
+    }
+  ],
+  "informacion":[
+    {
+      "id":1,
+      "titulo":"Personal Trainer",
+      "texto":"Mi nombre es Marcos Saluzzo, tengo 23 años y soy preparador físico. Actualmente, estoy estudiando educación física y me encuentro en un nivel avanzado en mi carrera. Desde muy joven. Si estás buscando cumplir tus objetivos de forma física, puedo ayudarte a alcanzarlos. Tengo una amplia experiencia en el entrenamiento personalizado y puedo diseñar un programa adaptado a tus necesidades y objetivos específicos. Ya sea que busques aumentar tu fuerza, mejorar tu resistencia o simplemente mantenerte en forma. No dudes en contactarme. Estoy dispuesto a trabajar contigo y a ayudarte a alcanzar tu mejor versión física."
+    }
+  ],
+  "experiencia": [
+    {
+      "id": 1,
+      "nombreExperiencia": "Krafit",
+      "descripcionExperiencia": "Desde hace varios meses, he estado trabajando como instructor en el gimnasio Krafti, un lugar que ha llegado a convertirse en una parte importante de mi rutina diaria. Lo que más me gusta es la amplia variedad de equipos y actividades disponibles, lo que me permite diversificar los entrenamientos",
+      "periodoExperiencia": "2022 - actualidad"
+    }
+  ],
+  "tarjetasEjercicios": [
+    {
+      "id": 1,
+      "titulo": "Abdomen",
+      "link":"/abdomen",
+      "photo": "./assets/imagenes/abdomen.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Pectorales",
+      "link":"/pecho",
+      "photo": "./assets/imagenes/pecho.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Espalda",
+      "link":"/espalda",
+      "photo": "./assets/imagenes/espalda.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Biceps y Ante Bazos",
+      "link":"/brazos",
+      "photo": "./assets/imagenes/brazos.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Triceps",
+      "link":"/triceps",
+      "photo": "./assets/imagenes/triceps.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Piernas",
+      "link":"/piernas",
+      "photo": "./assets/imagenes/piernas.png"
+    },
+    {
+      "id": 7,
+      "titulo": "Hombros",
+      "link":"/hombros",
+      "photo": "./assets/imagenes/hombros.png"
+    }
+  ]
+}

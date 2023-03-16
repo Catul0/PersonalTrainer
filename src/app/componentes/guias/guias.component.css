@@ -1,0 +1,29 @@
+.btn-primary{
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+.card{
+    border: 3px solid black;
+}
+.contenedor{
+   background: no-repeat center/cover url(/assets/imagenes/fondoLifeStyle3.png); 
+   border: none;  
+   color: rgb(255, 255, 255);
+   margin: auto;
+   height: 1500px; 
+   width: 100%;
+}
+.btn-outline-success{
+    border-color: yellow;
+    color: yellow;
+}
+.btn-outline-success:hover{
+    background-color: rgb(50, 124, 0) ;
+    color: black ;
+}
+@media screen and ( max-width: 600px) {
+    .contenedor{
+        height: 3000px;
+    }
+}

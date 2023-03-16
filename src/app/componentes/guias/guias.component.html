@@ -1,0 +1,38 @@
+<div class="contenedor">
+    <nav class="navbar bg-body-tertiary" style="background-color: black; margin-top: 0; top: 0;">
+        <div class="container-fluid">
+            <h1 class="navbar-brand" style="color: white;">Guias de Entrenamiento</h1>
+            <form class="d-flex">
+                <a routerLink="/home" class="btn btn-outline-success">
+                    Inicio
+                </a>
+            </form>
+        </div>
+    </nav>
+    <div class="card" style="background: none; border:none;">
+        <div class="card"
+            style="padding: 10px; background-color: rgba(0,0,0,.5); color: rgb(255, 255, 255); margin: auto; width: 80%;">
+            <h3 class="card-title">Que son las guias de entrenamiento?</h3>
+            <p class="card-text">A continuacion se encontraran con diversas tarjetas que contienen diferentes grupos musculares, y haciendo click en el boton de cada tarjeta los llevara guias de ejercicios gratuita para trabajar en casa cada grupo por separado</p>
+        </div>
+    </div>
+    <div class="card"
+        style="padding-top: 10px;margin: auto; background:none; border: none; color: rgb(255, 255, 255); width: 80%;">
+        <div class="row" style="margin-left: 10px;margin-right:10px;">
+           <div class="col-sm-4 col-md-4 col-lg-4"  *ngFor="let ejercicio of tarjeta">
+            <div class="card " style="margin-top: 10px; " >
+                <div class="card"  style="position: relative; background: none; ">
+                    <img 
+                        [src]="ejercicio.photo"
+                        style="width:auto;height: 350px; object-fit: cover; " 
+                        class="card-img-top" alt="..."
+                        
+                    >
+                    <a class="btn btn-primary" routerLink="{{ejercicio.link}}" style="position: absolute; top: 310px; width: 100%;" >{{ejercicio.titulo}}</a>
+                </div>
+            </div>
+           </div>
+           
+        </div>
+    </div>
+</div>
