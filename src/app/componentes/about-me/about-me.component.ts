@@ -21,4 +21,5 @@ export class AboutMeComponent implements OnInit {
       this.experiencia=data.experiencia;
     })
   }
+  
 }

@@ -4,6 +4,7 @@ import { AbdomenComponent } from './componentes/abdomen/abdomen.component';
 import { AboutMeComponent } from './componentes/about-me/about-me.component';
 import { BrazosComponent } from './componentes/brazos/brazos.component';
 import { EspaldaComponent } from './componentes/espalda/espalda.component';
+import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { GuiasComponent } from './componentes/guias/guias.component';
 import { HombrosComponent } from './componentes/hombros/hombros.component';
 import { HomeComponent } from './componentes/home/home.component';
@@ -22,9 +23,8 @@ const routes: Routes = [
   {path:'brazos', component:BrazosComponent},
   {path:'triceps', component:TricepsComponent},
   {path:'piernas', component:PiernasComponent},
-  {path:'hombros', component:HombrosComponent}
-  
-  
+  {path:'hombros', component:HombrosComponent},
+  {path:'form', component:FormularioComponent}
 ];
 
 @NgModule({
