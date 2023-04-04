@@ -1,5 +1,4 @@
-<div class="card " id="tarjetas"
-    style="background: no-repeat center/cover url(assets/imagenes/fondoLifeStyle3.png); padding-bottom: 35px;padding-top: 10px; border: none;  color: rgb(255, 255, 255);margin: auto; width: 100%;">
+<div class="card " id="tarjetas" style="background: none;">
     <div class="row"
         style="padding-top: 40px; margin-right: 10px;margin-left:10px;margin-top: 20px;margin: auto; width: 80%; background: none;">
         <div class="col-sm-4 col-md-4 col-lg-4" *ngFor="let tarj of tarjeta" >
@@ -8,7 +7,6 @@
                     [src]="tarj.photo"
                     style="width:auto;height: 350px; object-fit: cover; " 
                     class="card-img-top" alt="..."
-                    
                 >
                 <a class="btn btn-primary" routerLink="{{tarj.link}}" style="position: absolute; top: 310px; width: 100%;" >{{tarj.titulo}}</a>
             </div>

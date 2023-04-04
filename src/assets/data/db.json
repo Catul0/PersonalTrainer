@@ -40,12 +40,31 @@
       "texto":"Mi nombre es Marcos Saluzzo, tengo 23 años y soy preparador físico. Actualmente, estoy estudiando educación física y me encuentro en un nivel avanzado en mi carrera. Desde muy joven. Si estás buscando cumplir tus objetivos de forma física, puedo ayudarte a alcanzarlos. Tengo una amplia experiencia en el entrenamiento personalizado y puedo diseñar un programa adaptado a tus necesidades y objetivos específicos. Ya sea que busques aumentar tu fuerza, mejorar tu resistencia o simplemente mantenerte en forma. No dudes en contactarme. Estoy dispuesto a trabajar contigo y a ayudarte a alcanzar tu mejor versión física."
     }
   ],
+  "planes":[
+    {
+      "id":0,
+      "titulo":"Rutinas Generales",
+      "texto":"Es un programa de entrenamiento que se diseñó para ser aplicablado a una amplia gama de personas, sin considerar sus necesidades y capacidades individuales. Estas rutinas suelen incluir una variedad de ejercicios de calidad que se enfocan en diferentes áreas del cuerpo, como el cardio, la fuerza y la flexibilidad. Por lo general, se dividen en niveles de dificultad, como principiante, intermedio o avanzado, y se progresan a medida que el individuo gana más experiencia y mejora su condición física.",
+      "ventaja1":"Son fáciles de seguir, ya que proporcionan un plan estructurado y claro.",
+      "ventaja2":"Son adecuadas para personas que buscan un enfoque general y completo del entrenamiento.",
+      "ventaja3":"Son ideales para principiantes que necesitan familiarizarse con diferentes tipos de ejercicios y técnicas."
+    },
+    {
+      "id":1,
+      "titulo":"Rutinas Personalizadas:",
+      "texto":"Como su nombre lo indica, se diseñan específicamente para adaptarse a las necesidades, objetivos y capacidades individuales de una persona. Estas rutinas son elaboradas por entrenadores o profesionales del fitness, y toman en cuenta factores como la edad, el nivel de condición física, las limitaciones físicas, los objetivos personales y el tiempo disponible para entrenar.",
+      "ventaja1":"Se adaptan a las necesidades y capacidades individuales, lo que las hace más efectivas y seguras.",
+      "ventaja2":"Permiten un enfoque específico para alcanzar objetivos particulares, como ganar fuerza, mejorar la resistencia o perder peso.",
+      "ventaja3":"Son ideales para personas con limitaciones físicas o condiciones de salud especiales."
+    }
+  ],
   "experiencia": [
     {
       "id": 1,
-      "nombreExperiencia": "Krafit",
+      "nombreExperiencia": "Krafit Center",
       "descripcionExperiencia": "Desde hace varios meses, he estado trabajando como instructor en el gimnasio Krafti, un lugar que ha llegado a convertirse en una parte importante de mi rutina diaria. Lo que más me gusta es la amplia variedad de equipos y actividades disponibles, lo que me permite diversificar los entrenamientos",
-      "periodoExperiencia": "2022 - actualidad"
+      "periodoExperiencia": "2022 - actualidad",
+      "imagen":"./assets/imagenes/krafit.webp"
     }
   ],
   "tarjetasEjercicios": [

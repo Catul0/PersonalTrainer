@@ -17,6 +17,7 @@ import { TricepsComponent } from './componentes/triceps/triceps.component';
 import { PiernasComponent } from './componentes/piernas/piernas.component';
 import { HombrosComponent } from './componentes/hombros/hombros.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
+import { PlanesComponent } from './componentes/planes/planes.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FormularioComponent } from './componentes/formulario/formulario.compone
     TricepsComponent,
     PiernasComponent,
     HombrosComponent,
-    FormularioComponent
+    FormularioComponent,
+    PlanesComponent
   ],
   imports: [
     BrowserModule,
