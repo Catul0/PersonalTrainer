@@ -18,6 +18,10 @@ h2{
     color: #5B8FB9;
     margin: auto;
 }
+.alert-primary, .btn-primary{
+    background-color: #5B8FB9;
+    color: #03001C;
+}
 @media screen and ( max-width: 600px) {
     #form{
         width: 100%;
