@@ -1,9 +1,13 @@
- h6, p{
+ h6, ul,p{
     color: #A5D7E8;
 }
-h5{
-    color:#576CBC;
+h5,h2{
+    color:#5B8FB9;
+    margin: auto;
 }
-h2{
-   color:#0B2447 ; 
+@media screen and ( max-width: 600px) {
+    #imagenPlanes{
+        display: none;
+        visibility: hidden
+    }
 }

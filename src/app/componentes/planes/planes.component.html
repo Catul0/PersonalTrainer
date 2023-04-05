@@ -1,84 +1,65 @@
-<div class="card text-bg-dark" style="background: none; margin-top: 20px;">
-    <img src="./assets/imagenes/loquillo.webp" class="card-img" alt="...">
-    <div class="card-img-overlay" style="width: 80%; margin: auto; ">
-        <h2 class="card-title">Planes de Entrenamiento</h2>
-        <p class="card-text" style="width: 80%;" >
-            El entrenamiento físico es una parte esencial de un estilo de vida saludable y activo. Ya sea que estés
-            buscando mejorar tu resistencia cardiovascular, aumentar tu fuerza muscular, perder peso o simplemente
-            mantenerte en forma, un plan de entrenamiento bien diseñado puede ayudarte a alcanzar tus objetivos de
-            manera efectiva.
-        </p>
-        <p class="card-text" style="width: 80%;">Diseñé dos tipos de rutinas de entrenamiento físico: las generales y las personalizadas.
-            Ambas tienen sus ventajas y desventajas, y es importante entenderlas para elegir el enfoque adecuado según
-            tus necesidades y preferencias.</p>
-
+<div class="card mb-3" id="Planes"
+    style="background:none; width: 80%;background: none; margin: auto; border: none; margin-top: 20PX;">
+    <h2>Planes de Entrenamiento</h2>
+    <div class="row g-0" style="background:none; border: none; margin-top: 20PX;">
+        <div class="col-md-8" style="background: none; padding: 20px; color: #A5D7E8; text-align: center;">
+            <p class="card-text">
+                El entrenamiento físico es una parte esencial de un estilo de vida saludable y activo. Ya sea que estés
+                buscando mejorar tu resistencia cardiovascular, aumentar tu fuerza muscular, perder peso o simplemente
+                mantenerte en forma, un plan de entrenamiento bien diseñado puede ayudarte a alcanzar tus objetivos de
+                manera efectiva.
+            </p>
+            <p class="card-text">Diseñé dos tipos de rutinas de entrenamiento físico: las generales y las
+                personalizadas.
+                Ambas tienen sus ventajas y desventajas, y es importante entenderlas para elegir el enfoque adecuado
+                según
+                tus necesidades y preferencias.</p>
+        </div>
+        <div class="col-md-4" id="imagenPlanes">
+            <img src="./assets/imagenes/marcos.PNG" class="img-fluid rounded-end" alt="...">
+        </div>
     </div>
 </div>
+
 <div style="width: 80%; margin: auto; background: none;">
 
-    <div style="background-color: rgba(0,0,0,0.3);">
-        <div class="card" style="background: none; border: none;">
-            <div class="card-body">
-                <h5>Rutinas Generales:</h5>
-                <p class="card-text">Las rutinas generales son programas de entrenamiento que se diseñan para
-                    ser aplicables a una amplia gama de personas, sin considerar sus necesidades y capacidades
-                    individuales. Estas rutinas suelen incluir una variedad de ejercicios de calidad que se
-                    enfocan en diferentes áreas del cuerpo, como el cardio, la fuerza y la flexibilidad. Por lo
-                    general, se dividen en niveles de dificultad, como principiante, intermedio o avanzado, y se
-                    progresan a medida que el individuo gana más experiencia y mejora su condición física.</p>
-                <h6>Ventajas de las Rutinas Generales</h6>
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li>
-                        <p>Son fáciles de seguir, ya que proporcionan un plan estructurado y claro.</p>
-                    </li>
-                    <li >
-                        <p>Son adecuadas para personas que buscan un enfoque general y completo del entrenamiento.</p>
-                    </li>
-                    <li >
-                        <p>Son ideales para principiantes que necesitan familiarizarse con diferentes tipos de
-                            ejercicios y técnicas.</p>
-                    </li>
-                    <li >
-                        <p>Unico pago</p>
-                    </li>
-                </ul>
-                <h6>Desventajas de las Rutinas Generales</h6>
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li >
-                        <p>No se adaptan a las necesidades individuales, por lo que pueden no ser tan efectivas para
-                            personas con objetivos específicos o limitaciones físicas.</p>
-                    </li>
-                    <li >
-                        <p>Pueden volverse aburridas o monótonas con el tiempo, lo que puede disminuir la motivación.
-                        </p>
-                    </li>
-                </ul>
+    <div style="background: none;">
+        <div class="row g-0" style="background:none; border: none; margin-top: 20PX;">
+            <div class="col-md-4" id="imagenPlanes">
+                <img src="./assets/imagenes/ejercicio.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8" style="background: none; padding: 20px; color: #A5D7E8;">
+                <div class="card-body">
+                    <h5>Rutinas Generales:</h5>
+                    <p class="card-text">{{planes[0].texto}}</p>
+                    <h6>Ventajas de las Rutinas Generales</h6>
+                    <ul>
+                        <li>{{planes[0].ventaja1}}</li>
+                        <li>{{planes[0].ventaja2}}</li>
+                        <li>{{planes[0].ventaja3}}</li>
+                        <li>Unico pago</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div style="background-color: rgba(0,0,0,0.3);">
-        <div class="card" style="background: none; border: none;">
-            <div class="card-body">
-                <h5>Rutinas Personalizadas:</h5>
-                <p class="card-text">Las rutinas personalizadas, como su nombre lo indica, se diseñan específicamente
-                    para adaptarse a las necesidades, objetivos y capacidades individuales de una persona. Estas rutinas
-                    son elaboradas por entrenadores o profesionales del fitness, y toman en cuenta factores como la
-                    edad, el nivel de condición física, las limitaciones físicas, los objetivos personales y el tiempo
-                    disponible para entrenar.</p>
-                <h6>Las rutinas personalizadas tienen ventajas como:</h6>
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li>
-                        <p>Se adaptan a las necesidades y capacidades individuales, lo que las hace más efectivas y seguras.</p>
-                    </li>
-                    <li >
-                        <p>Permiten un enfoque específico para alcanzar objetivos particulares, como ganar fuerza, mejorar la resistencia o perder peso.</p>
-                    </li>
-                    <li >
-                        <p>Son ideales para personas con limitaciones físicas o condiciones de salud especiales.</p>
-                    </li>
-                </ul>
+    <div style="background: none;">
+        <div class="row g-0" style="background:none; border: none; margin-top: 20PX;">
+            <div class="col-md-8" style="background: none; padding: 20px; color: #A5D7E8;">
+                <div class="card-body">
+                    <h5>Rutinas Personalizadas:</h5>
+                    <p class="card-text">{{planes[1].texto}}</p>
+                    <h6>Las rutinas personalizadas tienen ventajas como:</h6>
+                    <ul>
+                        <li>{{planes[1].ventaja1}}</li>
+                        <li>{{planes[1].ventaja2}}</li>
+                        <li>{{planes[1].ventaja3}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4" id="imagenPlanes">
+                <img src="./assets/imagenes/ayudando.png" class="img-fluid rounded-end" alt="...">
             </div>
         </div>
     </div>
-
 </div>

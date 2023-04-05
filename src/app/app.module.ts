@@ -16,8 +16,8 @@ import { BrazosComponent } from './componentes/brazos/brazos.component';
 import { TricepsComponent } from './componentes/triceps/triceps.component';
 import { PiernasComponent } from './componentes/piernas/piernas.component';
 import { HombrosComponent } from './componentes/hombros/hombros.component';
-import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { PlanesComponent } from './componentes/planes/planes.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +34,8 @@ import { PlanesComponent } from './componentes/planes/planes.component';
     TricepsComponent,
     PiernasComponent,
     HombrosComponent,
-    FormularioComponent,
-    PlanesComponent
+    PlanesComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

@@ -43,7 +43,6 @@
   "planes":[
     {
       "id":0,
-      "titulo":"Rutinas Generales",
       "texto":"Es un programa de entrenamiento que se diseñó para ser aplicablado a una amplia gama de personas, sin considerar sus necesidades y capacidades individuales. Estas rutinas suelen incluir una variedad de ejercicios de calidad que se enfocan en diferentes áreas del cuerpo, como el cardio, la fuerza y la flexibilidad. Por lo general, se dividen en niveles de dificultad, como principiante, intermedio o avanzado, y se progresan a medida que el individuo gana más experiencia y mejora su condición física.",
       "ventaja1":"Son fáciles de seguir, ya que proporcionan un plan estructurado y claro.",
       "ventaja2":"Son adecuadas para personas que buscan un enfoque general y completo del entrenamiento.",
@@ -51,7 +50,6 @@
     },
     {
       "id":1,
-      "titulo":"Rutinas Personalizadas:",
       "texto":"Como su nombre lo indica, se diseñan específicamente para adaptarse a las necesidades, objetivos y capacidades individuales de una persona. Estas rutinas son elaboradas por entrenadores o profesionales del fitness, y toman en cuenta factores como la edad, el nivel de condición física, las limitaciones físicas, los objetivos personales y el tiempo disponible para entrenar.",
       "ventaja1":"Se adaptan a las necesidades y capacidades individuales, lo que las hace más efectivas y seguras.",
       "ventaja2":"Permiten un enfoque específico para alcanzar objetivos particulares, como ganar fuerza, mejorar la resistencia o perder peso.",

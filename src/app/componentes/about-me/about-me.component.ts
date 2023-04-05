@@ -9,7 +9,6 @@ import { Subscription }  from 'rxjs';
 export class AboutMeComponent implements OnInit {
   experiencia:any;
   info: any;
-  showAddInfo: boolean=false;
   subscription?: Subscription;
   constructor(
     private datosPorfolio:ObtenerDatosService
